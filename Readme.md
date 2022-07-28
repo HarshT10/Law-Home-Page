@@ -13,8 +13,8 @@
  - Background Image
  - Background Image Position
  - Background Image Size
- - Flebox
- - Font Awsome Icons
+ - Flexbox
+ - Font Awesome Icons
 
 ---
 
