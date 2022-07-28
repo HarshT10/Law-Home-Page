@@ -2,6 +2,10 @@
 
 - This project is a home page for legal practitioners . 
 
+[Netlify](https://law-home-page-harshthakkar1011.netlify.app/)
+
+![Badge](https://img.shields.io/badge/Netlify-Link-green)
+
 ---
 
 ### **What did I learn from this Project?**
