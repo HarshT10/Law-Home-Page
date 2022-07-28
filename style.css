@@ -1,0 +1,165 @@
+:root {
+  --brown: #2B2922;
+  --darkgrey: #979797;
+  --lightgrey: #F1F0EF;
+  --yellowochre: #827531;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--brown);
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Navbar */
+
+.navbar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 5rem;
+}
+
+.navbar .logo-wrapper{
+  margin-right: auto;
+}
+
+.navbar .logo {
+  width: 80%;
+  display: flex;
+}
+
+.navbar .list {
+  display: flex;
+  list-style: none;
+}
+
+.navbar .list .list-item {
+  padding: 0 25px;
+  font-size: 18px;
+  color: var(--darkgrey);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  transition: 200ms ease-in-out;
+}
+
+.navbar .list .list-item:hover {
+  color: var(--lightgrey);
+}
+
+.navbar .list .home {
+  margin: 0;
+}
+
+.button-small {
+  margin-left: 25px;
+  background-color: var(--yellowochre);
+  color: var(--lightgrey);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 15px 10px;
+  width: 160px;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.button-small:hover {
+  background-color: var(--brown);
+  border: 2px solid var(--yellowochre);
+  color: var(--yellowochre);
+}
+
+/* Text Section */
+
+.text {
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-heading h1 {
+  color: #dfdfdf;
+  font-weight: 900;
+  font-size: 70px;
+  /* width: 100%; */
+}
+
+
+.description p {
+  width: 60%;
+  margin: 0 auto;
+  color: #BAB8B5;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Image */
+
+.bg-image{
+  background-image: url(./assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+/* Bottom */
+
+.bottom {
+  display: flex;
+  justify-content: end;
+  text-align: end;
+}
+
+.left-box {
+  background-color: #39372D;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-box button {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: 3px solid var(--yellowochre);
+  background-color: #39372D;
+  font-size: 30px;
+  color: #A08F36;
+  font-weight: 200;
+}
+
+.right-box {
+  background-color: #A08F36;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-box button {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  border: 3px solid #ffffff;
+  background-color: #A08F36;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 200;
+}
