@@ -2,7 +2,7 @@
 
 - This project is a home page for legal practitioners . 
 
-[Netlify](https://law-home-page-harshthakkar1011.netlify.app/)
+[Netlify](https://law-home-page-harshcodes.netlify.app/)
 
 ![Badge](https://img.shields.io/badge/Netlify-Link-green)
 
